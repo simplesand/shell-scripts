@@ -6,7 +6,7 @@
 usage(){
   echo "usage: $0 [-l location] [--l location] [-h] [--help]"
   echo "Examples: "
-  echo "$0 -l /etc"
+  echo "$0 -l /etc/passwd"
   echo "$0 --help"
   echo
   exit 1
