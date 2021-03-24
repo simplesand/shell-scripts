@@ -22,9 +22,9 @@ do
          read -p "Enter your string: " ENTERED_STRING
          grep -iw $ENTERED_STRING $LOCATION &> /dev/null
          if [[ "${?}" -eq 0 ]]; then
-           echo "${ENTERED_STRING} exists in ${LOCATION}"
+           echo "${ENTERED_STRING} exists in ${LOCATION}."
          else
-           echo "${ENTERED_STRING} doesn't exists."
+           echo "${ENTERED_STRING} doesn't exists in ${LOCATION}."
            exit 1
          fi
        else 
